@@ -5,9 +5,6 @@ import argparse
 import traceback
 
 import settings
-from core.test import rr
-from core.db import main as gg
-# from core.api import main as bb
 
 from core.api_interaction import main as api_integration
 from core.browser_interaction import main as browser_integration
